@@ -16,13 +16,9 @@ struct NewToDoView: View {
             TextField("Enter the task description...", text: $title)
 
                             .padding()
-
                             .background(Color(.systemGroupedBackground))
-
                             .cornerRadius(15)
-
                             .padding()
-
                         Toggle(isOn: $isImportant) {
 
                             Text("Is it important?")
@@ -34,11 +30,8 @@ struct NewToDoView: View {
                           
 
                         }) {
-
                             Text("Add")
-
                                 .font(.title)
-
                         } .padding()
 
                     }
@@ -50,11 +43,8 @@ struct NewToDoView: View {
              
 
             struct NewToDoView_Previews: PreviewProvider {
-
                 static var previews: some View {
-
                     NewToDoView(title: "", isImportant: false)
-
                 }
 
             }

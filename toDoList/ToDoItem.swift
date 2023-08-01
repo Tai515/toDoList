@@ -12,11 +12,9 @@ class ToDoItem {
     var isImportant: Bool = false
     
     init(title: String, isImportant: Bool = false) {
-
-            self.title = title
-
-            self.isImportant = isImportant
-
-        }
+        self.title = title
+        self.isImportant = isImportant
+        
+    }
     
 }
